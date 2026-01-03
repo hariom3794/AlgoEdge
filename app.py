@@ -1744,6 +1744,7 @@ def login():
 @app.route("/dashboard")
 def dashboard():
     return render_template("client-dashboard.html")
+# -----------------------
 
 
 # 🔹 Admin Login / Panel (SAFE PATH)
